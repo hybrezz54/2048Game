@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "console": "node -r esm run_in_console.js"
+    "console": "node -r esm run_in_console.js",
+    "test": "node -r esm test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bulma": "^0.8.0",
     "esm": "^3.2.25",
     "keypress": "^0.2.1"
   }

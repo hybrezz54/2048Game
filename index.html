@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>2048 Game</title>
+        <link rel="stylesheet" href="node_modules/bulma/css/bulma.css" />
+        <link rel="stylesheet" href="main.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="root">
+            <section class="hero is-dark is-fullheight">
+                <div class="hero-body">
+                    <div class="container">
+                        <div class="columns is-centered is-vcentered">
+                            <div class="column">
+                                <div class="columns">
+                                    <div class="column has-text-centered">
+                                        <h1 class="title">2048</h1>
+                                        <h2 class="subtitle">Play the game!</h2>
+                                        <p id="status" class="has-text-danger is-size-4 is-uppercase"></p>
+                                    </div>
+                                    <div class="column has-text-centered">
+                                        <p id="score" class="has-text-info is-italic has-text-weight-semibold is-size-4"></p>
+                                        <button id="reset" class="button is-link is-inverted is-outlined is-small">Reset</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="column is-three-quarters">
+                                <table class="table is-fullwidth has-background-dark has-text-light is-size-4">
+                                    <tbody>
+                                        <tr id="row1">
+                                            <td><div class="tile"></div></td>
+                                            <td><div class="tile"></div></td>
+                                            <td><div class="tile"></div></td>
+                                            <td><div class="tile"></div></td>
+                                        </tr>
+
+                                        <tr id="row2">
+                                            <td><div class="tile"></div></td>
+                                            <td><div class="tile"></div></td>
+                                            <td><div class="tile"></div></td>
+                                            <td><div class="tile"></div></td>
+                                        </tr>
+
+                                        <tr id="row3">
+                                            <td><div class="tile"></div></td>
+                                            <td><div class="tile"></div></td>
+                                            <td><div class="tile"></div></td>
+                                            <td><div class="tile"></div></td>
+                                        </tr>
+
+                                        <tr id="row4">
+                                            <td><div class="tile"></div></td>
+                                            <td><div class="tile"></div></td>
+                                            <td><div class="tile"></div></td>
+                                            <td><div class="tile"></div></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <script type="module" src="main.js"></script>
+    </body>
+</html>
