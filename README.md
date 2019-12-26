@@ -1,5 +1,5 @@
 # 2048Game
-A 2048 Game clone made for a class assignment with the Bulma CSS framework and jQuery library. The clone is able to play a full operational game of 2048 and keeps the score accordingly.
+A 2048 Game clone made for a class assignment with the Bulma CSS framework and jQuery library. The clone is able to play a full operational game of 2048 and keeps the score accordingly. The game can be found live **[here](https://hamzahch.com/2048Game/)**.
 
 ## Screenshots
 ### Landing Page
